@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JioSaavn Music Player</title>
+  <style>
+    body {
+      font-family: Arial;
+      background: #121212;
+      color: white;
+      padding: 20px;
+    }
+    input, button {
+      padding: 10px;
+      margin: 5px;
+    }
+    button {
+      cursor: pointer;
+    }
+    #playlist button {
+      display: block;
+      width: 100%;
+      margin-top: 5px;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🎵 JioSaavn Music Player</h2>
+
+  <input id="search" placeholder="Enter song name">
+  <button id="searchBtn">Search</button>
+
+  <div id="playlist"></div>
+  <div id="player"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
